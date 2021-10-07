@@ -1,0 +1,44 @@
+{
+  "name": "denormalize-mongoose",
+  "version": "0.0.1",
+  "description": "Bidirectional denormalize for Mongoose with own type and plugin",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "keywords": [
+    "mongoose",
+    "denormalize",
+    "denormalization",
+    "plugin"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/SimpleL97/denormalize-mongoose",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimpleL97/denormalize-mongoose.git"
+  },
+  "author": {
+    "name": "Liubomyr Luhovyi",
+    "url": "@SimpleL97",
+    "email": "lyubomirlugovii97@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/SimpleL97/denormalize-mongoose/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "async": "^3.2.1",
+    "graph-data-structure": "^2.0.0",
+    "mongoose": "^6.0.9"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "husky": "^3.1.0"
+  },
+  "peerDependencies": {
+    "mongoose": ">=4.4.x"
+  }
+}
