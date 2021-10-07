@@ -12,7 +12,7 @@
     "denormalization",
     "plugin"
   ],
-  "license": "MIT",
+  "license": "ISC",
   "homepage": "https://github.com/SimpleL97/denormalize-mongoose",
   "repository": {
     "type": "git",
@@ -29,8 +29,7 @@
   "dependencies": {
     "lodash": "^4.17.21",
     "async": "^3.2.1",
-    "graph-data-structure": "^2.0.0",
-    "mongoose": "^6.0.9"
+    "graph-data-structure": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
