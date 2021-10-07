@@ -12,7 +12,7 @@
     "denormalization",
     "plugin"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://github.com/SimpleL97/denormalize-mongoose",
   "repository": {
     "type": "git",
@@ -38,6 +38,6 @@
     "husky": "^3.1.0"
   },
   "peerDependencies": {
-    "mongoose": ">=4.4.x"
+    "mongoose": ">=4.4.0"
   }
 }
