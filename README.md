@@ -31,6 +31,8 @@ const schema = new mongoose.Schema({
 });
 ```
 
+If you use [middlewares](https://mongoosejs.com/docs/middleware.html) in Schema - manually initialization of plugin is recommended after all middlewares you want to add.
+
 ## Options
 **paths** - main option, it defines what fields will be taken from original Document during denormalize process.\
 It can be an Array of strings or Object, also it can be combined.
@@ -66,7 +68,7 @@ const commentSchema = new Schema({
   },
   userData: {
     fullName: String,
-    age: Number,
+    company: String,
   },
   text: String,
 });
@@ -83,7 +85,7 @@ so all operations are running on *Documents*
 
 **suffix** and **to** options doing similar things. They represent field of document where to denormalize data.\
 **to** - is full path to Object or Array of Objects field to denormalize data, if it defines - **suffix** will be ignored\
-**suffix** - string that will be added to name of field where *Denormalize* Type. That joined string will be used to denormalize data.(as with **to** option), 'Data' by default
+**suffix** - string that will be added to name of field where *Denormalize* Type. That joined string will be used to denormalize data (as with **to** option), 'Data' by default
 ```javascript
 const userSchema = new Schema({
   comments: [{

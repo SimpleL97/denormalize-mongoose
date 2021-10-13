@@ -1,6 +1,6 @@
 {
   "name": "denormalize-mongoose",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Bidirectional denormalize for Mongoose with own type and plugin",
   "main": "index.js",
   "engines": {
