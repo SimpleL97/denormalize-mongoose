@@ -4,7 +4,7 @@
   "description": "Bidirectional denormalize for Mongoose with own type and plugin",
   "main": "index.js",
   "engines": {
-    "node": ">=0.10"
+    "node": ">=10"
   },
   "keywords": [
     "mongoose",
